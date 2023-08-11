@@ -1,0 +1,62 @@
+.home-section {
+    text-align: center;
+}
+
+.home-section .top-section {
+    background: gray;
+    color: white;
+    padding: 30px;
+}
+
+.home-section .top-section h1 {
+    font-size: 66px;
+    margin-top: -28px;
+    font-family: initial;
+}
+
+.home-section .top-section button {
+    border: 1px solid skyblue;
+    padding: 10px 20px;
+    background: transparent;
+    margin: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.playButton {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 15px solid skyblue;
+    border-bottom: 8px solid transparent;
+    margin: auto;
+}
+
+.playButton-Border {
+    width: fit-content;
+    border: 1px solid skyblue;
+    margin: auto;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+ul {
+    width: 80%;
+    margin-inline: auto;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    padding: 4px 20px;
+    border: none;
+    background: #0e93ca;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.about{
+    margin: 50px;
+}
+.about .img-section{
+float: left;
+}
+.about .img-section img{
+width: 300px;
+}
+.about .about-para p{
+    margin: 0;
+    padding-top: 16px;
+}
