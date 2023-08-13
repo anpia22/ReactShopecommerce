@@ -18,8 +18,8 @@ function App() {
       {/* <RouterProvider router={router} /> */}
       <Routes>
         <Route path='/' element={<HomePage/>} />
-        <Route path='/product' element={<ProductMenu />} />
-        <Route path='/about' element={<About />} />
+        <Route path='product' element={<ProductMenu />} />
+        <Route path='about' element={<About />} />
       </Routes>
       {/* <ProductMenu /> */}
     </CartProvider>
